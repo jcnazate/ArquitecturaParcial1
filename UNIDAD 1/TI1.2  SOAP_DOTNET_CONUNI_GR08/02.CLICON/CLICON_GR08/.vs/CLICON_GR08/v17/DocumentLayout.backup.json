@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\views\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\views\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\controllers\\conversioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\controllers\\conversioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\models\\conversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\models\\conversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\services\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\services\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|d:\\octavo semestre\\arquitectura\\arquitecturaparcial1\\unidad 1\\ti1.2  soap_dotnet_conuni_gr08\\02.clicon\\clicon_gr08\\clicon_gr08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71D0424-0F6E-4953-BA18-E50CE7E1AB5B}|CLICON_GR08\\CLICON_GR08.csproj|solutionrelative:clicon_gr08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleView.cs",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Views\\ConsoleView.cs",
+              "RelativeDocumentMoniker": "CLICON_GR08\\Views\\ConsoleView.cs",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Views\\ConsoleView.cs",
+              "RelativeToolTip": "CLICON_GR08\\Views\\ConsoleView.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv4wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:16:13.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConversionController.cs",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Controllers\\ConversionController.cs",
+              "RelativeDocumentMoniker": "CLICON_GR08\\Controllers\\ConversionController.cs",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Controllers\\ConversionController.cs",
+              "RelativeToolTip": "CLICON_GR08\\Controllers\\ConversionController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAtwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:16:53.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConversionService.cs",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Services\\ConversionService.cs",
+              "RelativeDocumentMoniker": "CLICON_GR08\\Services\\ConversionService.cs",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Services\\ConversionService.cs",
+              "RelativeToolTip": "CLICON_GR08\\Services\\ConversionService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:16:32.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConversionModel.cs",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Models\\ConversionModel.cs",
+              "RelativeDocumentMoniker": "CLICON_GR08\\Models\\ConversionModel.cs",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Models\\ConversionModel.cs",
+              "RelativeToolTip": "CLICON_GR08\\Models\\ConversionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:15:43.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\App.config",
+              "RelativeDocumentMoniker": "CLICON_GR08\\App.config",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\App.config",
+              "RelativeToolTip": "CLICON_GR08\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-22T16:10:07.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Program.cs",
+              "RelativeDocumentMoniker": "CLICON_GR08\\Program.cs",
+              "ToolTip": "D:\\OCTAVO SEMESTRE\\ARQUITECTURA\\ArquitecturaParcial1\\UNIDAD 1\\TI1.2  SOAP_DOTNET_CONUNI_GR08\\02.CLICON\\CLICON_GR08\\CLICON_GR08\\Program.cs",
+              "RelativeToolTip": "CLICON_GR08\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:07:41.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+﻿using CLICON_GR08.ReferenciaConUniCli;
+using CLICON_GR08.ReferenciaLoginCli;
+using System;
+
+namespace CLICON_GR08.Services
+{
+    public class ConversionService
+    {
+        private readonly ConversionUnidadesServicioClient _conversionClient;
+        private readonly LoginServicioClient _loginClient;
+
+        public ConversionService()
+        {
+            _conversionClient = new ConversionUnidadesServicioClient();
+            _loginClient = new LoginServicioClient();
+        }
+
+        public bool ValidateLogin(string username, string password)
+        {
+            try
+            {
+                // Aquí deberías usar el servicio real de login
+                return username == "MONSTER" && password == "MONSTER";
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public double ConvertLength(double value, int option)
+        {
+            try
+            {
+                switch (option)
+                {
+                    case 1: // cm to inches
+                        return _conversionClient.CentimetrosAPulgadas(value);
+                    case 2: // inches to cm
+                        return _conversionClient.PulgadasACentimetros(value);
+                    default:
+                        throw new ArgumentException("Opción de conversión no válida");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error al convertir longitud: {ex.Message}");
+            }
+        }
+
+        public double ConvertTemperature(double value, int option)
+        {
+            try
+            {
+                switch (option)
+                {
+                    case 1: // Celsius to Kelvin
+                        return _conversionClient.CelsiusAKelvin(value);
+                    case 2: // Kelvin to Celsius
+                        return _conversionClient.KelvinACelsius(value);
+                    default:
+                        throw new ArgumentException("Opción de conversión no válida");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error al convertir temperatura: {ex.Message}");
+            }
+        }
+
+        public double ConvertMass(double value, int option)
+        {
+            try
+            {
+                switch (option)
+                {
+                    case 1: // kg to g
+                        return _conversionClient.KilogramosAGramos(value);
+                    case 2: // g to kg
+                        return _conversionClient.GramosAKilogramos(value);
+                    default:
+                        throw new ArgumentException("Opción de conversión no válida");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error al convertir masa: {ex.Message}");
+            }
+        }
+    }
+}

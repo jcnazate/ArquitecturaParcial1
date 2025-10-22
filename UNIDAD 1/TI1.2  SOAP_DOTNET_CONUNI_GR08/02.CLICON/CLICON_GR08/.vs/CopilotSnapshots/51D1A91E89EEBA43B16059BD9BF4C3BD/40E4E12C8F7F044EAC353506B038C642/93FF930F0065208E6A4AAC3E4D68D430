@@ -1,0 +1,141 @@
+﻿using System;
+
+namespace CLICON_GR08.Views
+{
+    public class ConsoleView
+    {
+        public void ShowWelcome()
+        {
+            Console.WriteLine("╔══════════════════════╗");
+            Console.WriteLine("║                      ║");
+            Console.WriteLine("║     BIENVENIDO       ║");
+            Console.WriteLine("║                      ║");
+            Console.WriteLine("╚══════════════════════╝");
+        }
+
+        public (string username, string password) GetLoginCredentials()
+        {
+            Console.WriteLine("\nIngrese sus credenciales:");
+
+            Console.Write("╔══════════════════════╗\n");
+            Console.Write("║            Usuario:  ║\n");
+            Console.Write("╚══════════════════════╝\n");
+            Console.SetCursorPosition("║ Usuario:             ║".Length + 1, Console.CursorTop - 2);
+            string username = Console.ReadLine();
+
+            Console.Write("╔══════════════════════╗\n");
+            Console.Write("║          Contraseña: ║\n");
+            Console.Write("╚══════════════════════╝\n");
+            Console.SetCursorPosition("║ Contraseña:          ║".Length + 1, Console.CursorTop - 2);
+            string password = ReadPassword();
+
+            return (username, password);
+        }
+
+        private string ReadPassword()
+        {
+            string password = string.Empty;
+            ConsoleKeyInfo info;
+            do
+            {
+                info = Console.ReadKey(true);
+                if (info.Key != ConsoleKey.Backspace && info.Key != ConsoleKey.Enter)
+                {
+                    password += info.KeyChar;
+                    Console.Write("*");
+                }
+                else if (info.Key == ConsoleKey.Backspace && password.Length > 0)
+                {
+                    password = password.Substring(0, password.Length - 1);
+                    Console.Write("\b \b");
+                }
+            } while (info.Key != ConsoleKey.Enter);
+
+            Console.WriteLine();
+            return password;
+        }
+
+        public void ShowLoginError(bool isUsernameError)
+        {
+            Console.WriteLine(isUsernameError ? 
+                "\nUsuario incorrecto. Intente nuevamente.\n" : 
+                "\nContraseña incorrecta. Intente nuevamente.\n");
+        }
+
+        public void ShowLoginSuccess()
+        {
+            Console.WriteLine("\nInicio de sesión exitoso.\n");
+        }
+
+        public int ShowMainMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("╔══════════════════════════════════╗");
+            Console.WriteLine("║   *** Conversor de Unidades ***  ║");
+            Console.WriteLine("╠══════════════════════════════════╣");
+            Console.WriteLine("║ Seleccione el tipo de Conversión:║");
+            Console.WriteLine("║                                  ║");
+            Console.WriteLine("║ 1. Conversiones de Longitud      ║");
+            Console.WriteLine("║ 2. Conversiones de Temperatura   ║");
+            Console.WriteLine("║ 3. Conversiones de Masa          ║");
+            Console.WriteLine("║ 4. Salir                         ║");
+            Console.WriteLine("╚══════════════════════════════════╝");
+
+            Console.Write("\nIngrese su opción: ");
+            int.TryParse(Console.ReadLine(), out int option);
+            return option;
+        }
+
+        public int ShowConversionMenu(string type)
+        {
+            Console.Clear();
+            Console.WriteLine("╔══════════════════════════════════╗");
+            Console.WriteLine($"║  *** Conversiones de {type} ***");
+            Console.WriteLine("╠══════════════════════════════════╣");
+            
+            switch (type.ToLower())
+            {
+                case "longitud":
+                    Console.WriteLine("║ 1. Centímetros a Pulgadas        ║");
+                    Console.WriteLine("║ 2. Pulgadas a Centímetros        ║");
+                    break;
+                case "temperatura":
+                    Console.WriteLine("║ 1. Celsius a Kelvin              ║");
+                    Console.WriteLine("║ 2. Kelvin a Celsius              ║");
+                    break;
+                case "masa":
+                    Console.WriteLine("║ 1. Kilogramos a Gramos           ║");
+                    Console.WriteLine("║ 2. Gramos a Kilogramos           ║");
+                    break;
+            }
+            
+            Console.WriteLine("║ 3. Volver al menú principal      ║");
+            Console.WriteLine("╚══════════════════════════════════╝");
+
+            Console.Write("\nIngrese su opción: ");
+            int.TryParse(Console.ReadLine(), out int option);
+            return option;
+        }
+
+        public double GetValueToConvert()
+        {
+            Console.Write("\nIngrese el valor a convertir: ");
+            double.TryParse(Console.ReadLine(), out double value);
+            return value;
+        }
+
+        public void ShowResult(double result)
+        {
+            Console.WriteLine($"\nResultado de la conversión: {result}");
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
+
+        public void ShowError(string message)
+        {
+            Console.WriteLine($"\nError: {message}");
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
+    }
+}
