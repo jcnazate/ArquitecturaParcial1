@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/monster1"
-    android:padding="16dp">
+    android:background="@drawable/monstermenu">
 
     <!-- Capa semi-transparente para suavizar el fondo -->
     <View
         android:id="@+id/overlay"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="#80000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +21,10 @@
         android:id="@+id/textViewMenuTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:layout_marginBottom="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:text="MENÚ DE CONVERSIONES"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -96,7 +97,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:text="REGRESAR AL LOGIN"
