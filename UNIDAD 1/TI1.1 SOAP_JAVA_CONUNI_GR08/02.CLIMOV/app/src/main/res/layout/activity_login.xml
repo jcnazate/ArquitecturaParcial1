@@ -5,19 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/monsterlogin"
+    android:background="@drawable/monsterlogin1"
     tools:context=".MainActivity">
-
-    <!-- Capa semi-transparente para suavizar el fondo -->
-    <View
-        android:id="@+id/overlay"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#80000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Título principal -->
     <TextView
@@ -27,7 +16,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginBottom="60dp"
         android:text="BIENVENIDO AL APLICATIVO\nDE CONVERSIONES"
-        android:textColor="#FFFFFF"
+        android:textColor="#c3e05b"
         android:textSize="24sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium"
