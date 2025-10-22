@@ -33,7 +33,7 @@
     min-height:100vh;
     display:grid;
     place-items:center;                    /* centrado perfecto */
-    background-image:url('Imagenes/fondoMenu.jpg'); /* <-- cambia si quieres otra */
+    background-image:url('Imagenes/fondoMenu2.jpg'); /* <-- cambia si quieres otra */
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -57,24 +57,26 @@
     padding:28px 26px 30px;
     position:relative;
     z-index:1;
+     transform: translateY(-19vh); 
   }
 
   /* ===== Títulos ===== */
   .subtitle{
     font-family:'Fredoka One',cursive;
-    font-size:clamp(1.6rem,4.2vw,2.2rem);
+    font-size:clamp(5rem,6vw,rem);
     line-height:1.1;
     text-align:center;
     background:linear-gradient(135deg,var(--c1),var(--c2),var(--c3));
     -webkit-background-clip:text;
     background-clip:text;
     color:transparent;
-    margin-bottom:2px;
+    margin-bottom:30px;
   }
   .subdesc{
     text-align:center;
-    color:#334155;
-    font-weight:600;
+    color:#c3e05b;
+    font-family:'Fredoka One',cursive;
+    font-size:clamp(1.6rem,4.2vw,2.2rem);
     letter-spacing:.3px;
     margin-bottom:18px;
   }
@@ -119,10 +121,10 @@
 </style>
 </head>
 <body>
-
+   <p class="subdesc">Conversión de Unidades</p>
   <section class="menu-card" role="region" aria-label="Menú principal">
     <h2 class="subtitle">Menú</h2>
-    <p class="subdesc">Conversión de Unidades</p>
+ 
 
     <div class="btns">
       <a class="btn" href="temperatura.jsp" aria-label="Ir a conversión de temperatura">Temperatura</a>

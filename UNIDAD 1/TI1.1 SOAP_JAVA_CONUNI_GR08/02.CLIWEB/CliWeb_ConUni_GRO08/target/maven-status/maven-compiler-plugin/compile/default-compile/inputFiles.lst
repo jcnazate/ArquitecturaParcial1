@@ -1,26 +1,26 @@
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CentimetrosAPulgadasResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CelsiusAKelvin.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\com\mycompany\cliweb_conuni_gro08\JakartaRestConfiguration.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KelvinACelsiusResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\Login_Service.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\modelo\ConversionUnidades.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\WSConUni.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\package-info.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KilogramosAGramos.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\modelo\LoginModelo.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KilogramosAGramosResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\GramosAKilogramosResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\Login.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\GramosAKilogramos.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\PulgadasACentimetros.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CentimetrosAPulgadas.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KelvinACelsius.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\PulgadasACentimetrosResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\ObjectFactory.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\com\mycompany\cliweb_conuni_gro08\resources\JakartaEE10Resource.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CelsiusAKelvinResponse.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\WSConUni_Service.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\utils\HashUtil.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\LoginService.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\controlador\SoapController.java
-D:\OCTAVO SEMESTRE\ARQUITECTURA\TI1.1\SOAP_JAVA-CONUNI_GRO08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\LoginResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\controlador\SoapController.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\PulgadasACentimetrosResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\com\mycompany\cliweb_conuni_gro08\resources\JakartaEE10Resource.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\package-info.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\Login.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\LoginService.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\modelo\ConversionUnidades.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\ObjectFactory.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CelsiusAKelvinResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\WSConUni.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\Login_Service.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\GramosAKilogramosResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\WSConUni_Service.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CentimetrosAPulgadas.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KilogramosAGramos.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KilogramosAGramosResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CentimetrosAPulgadasResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\CelsiusAKelvin.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\LoginResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\com\mycompany\cliweb_conuni_gro08\JakartaRestConfiguration.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\GramosAKilogramos.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\utils\HashUtil.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KelvinACelsiusResponse.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\modelo\LoginModelo.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\KelvinACelsius.java
+D:\OCTAVO SEMESTRE\ARQUITECTURA\ArquitecturaParcial1\UNIDAD 1\TI1.1 SOAP_JAVA_CONUNI_GR08\02.CLIWEB\CliWeb_ConUni_GRO08\src\main\java\ec\edu\monster\ws\PulgadasACentimetros.java

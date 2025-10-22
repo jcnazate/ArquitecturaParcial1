@@ -25,7 +25,7 @@
     min-height:100vh;
     display:grid;
     place-items:center;          /* centra TODO al medio */
-    background-image:url('Imagenes/fondoLogin.jpg'); /* <-- tu imagen */
+    background-image:url('Imagenes/fondoMenu2.jpg'); /* <-- tu imagen */
     background-size:cover;
     background-position:center;
     background-attachment:fixed; /* se siente más “premium” */

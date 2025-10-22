@@ -57,6 +57,7 @@
             <id>generate-sources</id>
             <phase>generate-sources</phase>
             <configuration>
+                <mainClass>ec.edu.monster.ws</mainClass>
               <!-- Deja el default: target/generated-sources/cxf -->
               <wsdlOptions>
                 <!-- ConversionUnidades -->

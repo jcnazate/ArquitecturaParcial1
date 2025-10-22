@@ -21,7 +21,7 @@
     display:grid; 
     place-items:center start;
     padding-left:60px;
-    background-image:url('Imagenes/fondoOpciones.jpg'); /* cambia si quieres otra */
+    background-image:url('Imagenes/fondoOpciones2.jpg'); /* cambia si quieres otra */
     background-size:cover; background-position:center; background-attachment:fixed;
   }
   body::before{content:""; position:fixed; inset:0; background:rgba(0,0,0,.25); pointer-events:none;}
