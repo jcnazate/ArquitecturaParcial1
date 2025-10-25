@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Menú";
+    Layout = null; // <- importante porque la vista es "full page"
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Conversión de Unidades</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --c1: #05abda;
+            --c2: #947cbc;
+            --c3: #6c5494;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Fredoka',sans-serif;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background-image: url('@Url.Content("~/Imagenes/fondoMenu2.jpg")');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+            body::before {
+                content: "";
+                position: fixed;
+                inset: 0;
+                background: rgba(0,0,0,.25);
+                pointer-events: none;
+            }
+
+        .menu-card {
+            width: min(92vw,700px);
+            background: rgba(255,255,255,.72);
+            backdrop-filter: saturate(140%) blur(6px);
+            -webkit-backdrop-filter: saturate(140%) blur(6px);
+            border-radius: 22px;
+            box-shadow: 0 22px 60px rgba(0,0,0,.35);
+            padding: 28px 26px 30px;
+            position: relative;
+            z-index: 1;
+            transform: translateY(-19vh);
+        }
+
+        .subtitle {
+            font-family: 'Fredoka One',cursive;
+            font-size: clamp(1.8rem,6vw,2.4rem);
+            line-height: 1.1;
+            text-align: center;
+            background: linear-gradient(135deg,var(--c1),var(--c2),var(--c3));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 30px;
+        }
+
+        .subdesc {
+            text-align: center;
+            color: #c3e05b;
+            font-family: 'Fredoka One',cursive;
+            font-size: clamp(1.1rem,4.2vw,1.5rem);
+            letter-spacing: .3px;
+            margin-bottom: 18px;
+        }
+
+        .btns {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 14px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 18px;
+            border: none;
+            border-radius: 14px;
+            text-decoration: none;
+            color: #0f172a;
+            font-weight: 700;
+            font-size: 1.05rem;
+            letter-spacing: .3px;
+            background: #ffffffd9;
+            box-shadow: inset 0 0 0 2px rgba(15,23,42,.08), 0 10px 28px rgba(0,0,0,.12);
+            transition: transform .15s, box-shadow .2s, background .2s;
+            text-align: center;
+        }
+
+            .btn:hover {
+                transform: translateY(-2px);
+                box-shadow: inset 0 0 0 2px rgba(5,171,218,.35), 0 14px 34px rgba(5,171,218,.25);
+                background: linear-gradient(135deg,#44b4cc1a 0%, #05abda14 100%);
+            }
+
+            .btn:active {
+                transform: translateY(0) scale(.99);
+            }
+
+            .btn:focus-visible {
+                outline: 3px solid var(--c1);
+                outline-offset: 3px;
+            }
+    </style>
+</head>
+<body>
+    <p class="subdesc">Conversión de Unidades</p>
+    <section class="menu-card" role="region" aria-label="Menú principal">
+        <h2 class="subtitle">Menú</h2>
+
+        <div class="btns">
+            <a class="btn" href="@Url.Action("Temperatura", "Conversion")" aria-label="Ir a conversión de temperatura">Temperatura</a>
+            <a class="btn" href="@Url.Action("Masa", "Conversion")" aria-label="Ir a conversión de masa">Masa</a>
+            <a class="btn" href="@Url.Action("Longitud", "Conversion")" aria-label="Ir a conversión de longitud">Longitud</a>
+        </div>
+
+    </section>
+</body>
+</html>

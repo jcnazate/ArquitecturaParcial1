@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLIWEB_CONUNI_GR05")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2d6e0c9716f1c8bd83b2b6f1397f7d481c5e0c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLIWEB_CONUNI_GR05")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CLIWEB_CONUNI_GR05")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
