@@ -66,5 +66,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
                 e.Cancel = true;
             }
         }
+
+        private void lblInfo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

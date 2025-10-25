@@ -43,9 +43,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.lblTitle.Location = new System.Drawing.Point(120, 30);
+            this.lblTitle.Location = new System.Drawing.Point(160, 37);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(280, 31);
+            this.lblTitle.Size = new System.Drawing.Size(390, 39);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Sistema de Conversión";
             // 
@@ -53,9 +54,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(150, 80);
+            this.lblWelcome.Location = new System.Drawing.Point(200, 98);
+            this.lblWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(220, 20);
+            this.lblWelcome.Size = new System.Drawing.Size(214, 25);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = "¡Bienvenido al sistema!";
             // 
@@ -65,9 +67,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.btnConversion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConversion.ForeColor = System.Drawing.Color.White;
-            this.btnConversion.Location = new System.Drawing.Point(150, 150);
+            this.btnConversion.Location = new System.Drawing.Point(200, 185);
+            this.btnConversion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConversion.Name = "btnConversion";
-            this.btnConversion.Size = new System.Drawing.Size(220, 60);
+            this.btnConversion.Size = new System.Drawing.Size(293, 74);
             this.btnConversion.TabIndex = 2;
             this.btnConversion.Text = "Conversión de Unidades";
             this.btnConversion.UseVisualStyleBackColor = false;
@@ -79,9 +82,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(150, 250);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(200, 308);
+            this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(100, 40);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(133, 49);
             this.btnCerrarSesion.TabIndex = 3;
             this.btnCerrarSesion.Text = "Cerrar Sesión";
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
@@ -93,9 +97,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
-            this.btnSalir.Location = new System.Drawing.Point(270, 250);
+            this.btnSalir.Location = new System.Drawing.Point(360, 308);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(100, 40);
+            this.btnSalir.Size = new System.Drawing.Size(133, 49);
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -112,8 +117,9 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(520, 350);
+            this.panel1.Size = new System.Drawing.Size(693, 431);
             this.panel1.TabIndex = 5;
             // 
             // lblInfo
@@ -121,19 +127,22 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
             this.lblInfo.AutoSize = true;
             this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(117)))), ((int)(((byte)(125)))));
-            this.lblInfo.Location = new System.Drawing.Point(100, 110);
+            this.lblInfo.Location = new System.Drawing.Point(133, 135);
+            this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(320, 15);
+            this.lblInfo.Size = new System.Drawing.Size(451, 18);
             this.lblInfo.TabIndex = 5;
             this.lblInfo.Text = "Conectado al servidor SOAP - Sistema de Conversión de Unidades";
+            this.lblInfo.Click += new System.EventHandler(this.lblInfo_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 350);
+            this.ClientSize = new System.Drawing.Size(693, 431);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";

@@ -1,0 +1,7 @@
+ec\edu\monster\modelo\UserCredentials.class
+ec\edu\monster\controlador\ConversionUnidades.class
+espe\edu\ec\mosnter\ws_conuni_restfulljava_gr08\resources\JakartaEE10Resource.class
+ec\edu\monster\vista\CorsFilter.class
+ec\edu\monster\controlador\Login.class
+ec\edu\monster\pruebas\PruebaConversionUnidades.class
+espe\edu\ec\mosnter\ws_conuni_restfulljava_gr08\JakartaRestConfiguration.class
