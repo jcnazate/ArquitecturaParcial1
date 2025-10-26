@@ -5,9 +5,8 @@ public class SoapConstants {
     public static final String LOGIN_NAMESPACE = "http://tempuri.org/";
     public static final String CONVERSION_NAMESPACE = "http://tempuri.org/";
 
-    public static final String LOGIN_URL = "http://10.0.2.2/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/";
-    public static final String CONVERSION_URL = "http://10.0.2.2/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/";
-
+    public static final String LOGIN_URL = "http://10.0.2.2:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/LoginServicio/";
+    public static final String CONVERSION_URL = "http://10.0.2.2:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/";
     public static final String SOAP_ACTION_PREFIX = "http://tempuri.org/";
     
     public static final String LOGIN_METHOD = "Login";

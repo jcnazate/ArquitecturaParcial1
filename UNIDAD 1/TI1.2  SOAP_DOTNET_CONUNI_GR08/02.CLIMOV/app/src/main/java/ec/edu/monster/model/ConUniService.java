@@ -21,10 +21,14 @@ public class ConUniService {
         SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
         envelope.setOutputSoapObject(request);
         envelope.dotNet = true;
-        envelope.implicitTypes = true;
+        envelope.implicitTypes = false; // Cambiar a false para mejor compatibilidad
+        envelope.setAddAdornments(false); // No agregar adornos adicionales
 
-        HttpTransportSE transport = new HttpTransportSE(url);
+        HttpTransportSE transport = new HttpTransportSE(url, 30000); // 30 segundos de timeout
         transport.setXmlVersionTag("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+        
+        // Configurar headers adicionales para compatibilidad con .NET
+        transport.debug = true; // Para debugging
 
         try {
             String soapAction = "http://tempuri.org/ILoginServicio/Login";
@@ -79,10 +83,14 @@ public class ConUniService {
         SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
         envelope.setOutputSoapObject(request);
         envelope.dotNet = true;
-        envelope.implicitTypes = true;
+        envelope.implicitTypes = false; // Cambiar a false para mejor compatibilidad
+        envelope.setAddAdornments(false); // No agregar adornos adicionales
 
-        HttpTransportSE transport = new HttpTransportSE(SoapConstants.CONVERSION_URL);
+        HttpTransportSE transport = new HttpTransportSE(SoapConstants.CONVERSION_URL, 30000); // 30 segundos de timeout
         transport.setXmlVersionTag("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+        
+        // Configurar headers adicionales para compatibilidad con .NET
+        transport.debug = true; // Para debugging
 
         try {
             String soapAction = "http://tempuri.org/IConversionUnidadesServicio/" + method;
