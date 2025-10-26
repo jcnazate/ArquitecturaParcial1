@@ -1,0 +1,7 @@
+ec\edu\monster\modelo\ConversionUnidades.class
+ec\edu\monster\utils\HashUtil.class
+ec\edu\monster\modelo\LoginModelo.class
+ec\edu\monster\cliweb_conuni_gr08\resources\JakartaEE10Resource.class
+ec\edu\monster\controlador\RestController.class
+ec\edu\monster\utils\RestClient.class
+ec\edu\monster\cliweb_conuni_gr08\JakartaRestConfiguration.class

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Http" Version="8.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="8.*" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="8.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ec.edu.monster.modelo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Imagenes\fondoLogin.jpg" />
+    <None Include="wwwroot\Imagenes\fondoMenu2.jpg" />
+    <None Include="wwwroot\Imagenes\fondoOpciones.jpg" />
+    <None Include="wwwroot\Imagenes\fondoOpciones2.jpg" />
+    <None Include="wwwroot\Imagenes\puerta1.png" />
+    <None Include="wwwroot\Imagenes\puerta2.png" />
+    <None Include="wwwroot\Imagenes\puerta3.png" />
+    <None Include="wwwroot\Imagenes\sullivan.png" />
+  </ItemGroup>
+</Project>
