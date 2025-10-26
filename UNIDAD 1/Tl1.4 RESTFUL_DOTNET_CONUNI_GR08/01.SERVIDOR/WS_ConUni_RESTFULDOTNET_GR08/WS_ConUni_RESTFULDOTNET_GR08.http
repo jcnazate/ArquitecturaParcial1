@@ -1,0 +1,30 @@
+@WS_ConUni_RESTFULDOTNET_GR08_HostAddress = http://localhost:5000
+@WS_ConUni_RESTFULDOTNET_GR08_HostAddressHTTPS = https://localhost:5001
+
+### Prueba conversi�n de pulgadas a cent�metros
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/pulgadas-a-centimetros?pulgadas=10
+Accept: application/json
+
+### Prueba conversi�n de cent�metros a pulgadas
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/centimetros-a-pulgadas?centimetros=25.4
+Accept: application/json
+
+### Prueba conversi�n de Kelvin a Celsius
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/kelvin-a-celsius?kelvin=300
+Accept: application/json
+
+### Prueba conversi�n de Celsius a Kelvin
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/celsius-a-kelvin?celsius=25
+Accept: application/json
+
+### Prueba conversi�n de Kilogramos a Gramos
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/kilogramos-a-gramos?kilogramos=2
+Accept: application/json
+
+### Prueba conversi�n de Gramos a Kilogramos
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/gramos-a-kilogramos?gramos=2000
+Accept: application/json
+
+### Swagger UI
+GET {{WS_ConUni_RESTFULDOTNET_GR08_HostAddress}}/swagger
+Accept: text/html
