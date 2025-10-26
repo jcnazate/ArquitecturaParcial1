@@ -1,12 +1,13 @@
-﻿using CONUNI_GR08.ec.edu.monster.modelo;
-using CONUNI_GR08.ec.edu.monster.servicio;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
 using System.Text;
-using System.Threading.Tasks;
+using CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.modelo;
+using CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.service;
 
-namespace CONUNI_GR08.ec.edu.monster.controlador
+namespace CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.service
 {
     public class ConversionUnidadesServicio : IConversionUnidadesServicio
     {

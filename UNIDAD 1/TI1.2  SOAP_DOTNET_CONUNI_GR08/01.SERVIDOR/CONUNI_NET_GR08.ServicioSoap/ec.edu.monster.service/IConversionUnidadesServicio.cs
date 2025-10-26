@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace CONUNI_GR08.ec.edu.monster.servicio
+namespace CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.service
 {
     [ServiceContract]
     public interface IConversionUnidadesServicio

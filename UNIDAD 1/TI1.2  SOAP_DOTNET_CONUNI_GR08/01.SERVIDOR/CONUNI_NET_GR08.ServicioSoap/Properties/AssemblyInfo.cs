@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("CONUNI_GR05")]
+[assembly: AssemblyTitle("CONUNI_NET_GR08.ServicioSoap")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CONUNI_GR05")]
+[assembly: AssemblyProduct("CONUNI_NET_GR08.ServicioSoap")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("b0a4416c-e0ad-4c80-9ec3-1c86f947a246")]
+[assembly: Guid("1a2e8aa8-2bf9-41ce-8c79-a8678552a798")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

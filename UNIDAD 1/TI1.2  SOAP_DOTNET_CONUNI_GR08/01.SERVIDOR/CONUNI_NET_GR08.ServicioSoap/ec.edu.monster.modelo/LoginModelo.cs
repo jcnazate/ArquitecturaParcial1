@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CONUNI_GR08.ec.edu.monster.modelo
+namespace CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.modelo
 {
     public class LoginModelo
     {
@@ -15,5 +15,4 @@ namespace CONUNI_GR08.ec.edu.monster.modelo
                    password == "MONSTER9";
         }
     }
-    
 }
