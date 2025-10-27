@@ -7,12 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ServiceReference1
+namespace ServiceReferenceConversion
 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IConversionUnidadesServicio")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceConversion.IConversionUnidadesServicio")]
     public interface IConversionUnidadesServicio
     {
         
@@ -36,13 +36,13 @@ namespace ServiceReference1
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public interface IConversionUnidadesServicioChannel : ServiceReference1.IConversionUnidadesServicio, System.ServiceModel.IClientChannel
+    public interface IConversionUnidadesServicioChannel : ServiceReferenceConversion.IConversionUnidadesServicio, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public partial class ConversionUnidadesServicioClient : System.ServiceModel.ClientBase<ServiceReference1.IConversionUnidadesServicio>, ServiceReference1.IConversionUnidadesServicio
+    public partial class ConversionUnidadesServicioClient : System.ServiceModel.ClientBase<ServiceReferenceConversion.IConversionUnidadesServicio>, ServiceReferenceConversion.IConversionUnidadesServicio
     {
         
         /// <summary>
@@ -145,7 +145,8 @@ namespace ServiceReference1
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IConversionUnidadesServicio))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/");
+                return new System.ServiceModel.EndpointAddress("http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.m" +
+                        "onster.controlador/ConversionUnidadesServicio/");
             }
             throw new System.InvalidOperationException(string.Format("No se pudo encontrar un punto de conexión con el nombre \"{0}\".", endpointConfiguration));
         }

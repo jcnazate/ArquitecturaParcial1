@@ -7,12 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Referencia_Login
+namespace ServiceReferenceLogin
 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Referencia_Login.ILoginServicio")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceLogin.ILoginServicio")]
     public interface ILoginServicio
     {
         
@@ -21,13 +21,13 @@ namespace Referencia_Login
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public interface ILoginServicioChannel : Referencia_Login.ILoginServicio, System.ServiceModel.IClientChannel
+    public interface ILoginServicioChannel : ServiceReferenceLogin.ILoginServicio, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public partial class LoginServicioClient : System.ServiceModel.ClientBase<Referencia_Login.ILoginServicio>, Referencia_Login.ILoginServicio
+    public partial class LoginServicioClient : System.ServiceModel.ClientBase<ServiceReferenceLogin.ILoginServicio>, ServiceReferenceLogin.ILoginServicio
     {
         
         /// <summary>
@@ -105,7 +105,8 @@ namespace Referencia_Login
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ILoginServicio))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/");
+                return new System.ServiceModel.EndpointAddress("http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.m" +
+                        "onster.controlador/LoginServicio/");
             }
             throw new System.InvalidOperationException(string.Format("No se pudo encontrar un punto de conexión con el nombre \"{0}\".", endpointConfiguration));
         }

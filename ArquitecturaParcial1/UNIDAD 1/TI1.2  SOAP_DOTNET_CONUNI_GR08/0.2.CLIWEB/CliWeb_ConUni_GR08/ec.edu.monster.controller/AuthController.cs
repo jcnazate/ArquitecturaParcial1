@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ServiceModel;
-using Referencia_Login; // <- tu Connected Service para Login
+using ServiceReferenceLogin; // <- tu Connected Service para Login
 
 namespace CliWeb_ConUni_GR08.ec.edu.monster.controller
 {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ServiceReference1; // tu proxy WCF
+using ServiceReferenceConversion; // tu proxy WCF
 using System.ServiceModel;
 
 namespace CliWeb_ConUni_GR08.ec.edu.monster.controller

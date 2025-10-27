@@ -1,14 +1,14 @@
 {
   "ExtendedData": {
     "inputs": [
-      "http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/?wsdl"
+      "http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/?wsdl"
     ],
     "collectionTypes": [
       "System.Array",
       "System.Collections.Generic.Dictionary`2"
     ],
     "namespaceMappings": [
-      "*, ServiceReference1"
+      "*, ServiceReferenceConversion"
     ],
     "targetFramework": "net8.0",
     "typeReuseMode": "All"

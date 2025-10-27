@@ -45,76 +45,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ReferenciaConUniCli\Reference.cs">
+    <Compile Include="Connected Services\ReferenciaConversionUni\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Connected Services\ReferenciaLoginCli\Reference.cs">
+    <Compile Include="Connected Services\ReferenciaLogin\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\ConversionController.cs" />
-    <Compile Include="Models\ConversionModel.cs" />
+    <Compile Include="ec.edu.monster.controlador\ConversionController.cs" />
+    <Compile Include="ec.edu.monster.model\ConversionModel.cs" />
+    <Compile Include="ec.edu.monster.service\ConversionService.cs" />
+    <Compile Include="ec.edu.monster.vista\ConsoleView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ConversionService.cs" />
-    <Compile Include="Views\ConsoleView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\ReferenciaConUniCli\ConversionUnidadesServicio.wsdl" />
-    <None Include="Connected Services\ReferenciaConUniCli\item.xsd">
+    <None Include="Connected Services\ReferenciaConversionUni\ConversionUnidadesServicio.wsdl" />
+    <None Include="Connected Services\ReferenciaConversionUni\item.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ReferenciaConUniCli\item1.xsd">
+    <None Include="Connected Services\ReferenciaConversionUni\item1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ReferenciaLoginCli\item.xsd">
+    <None Include="Connected Services\ReferenciaLogin\item.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ReferenciaLoginCli\item1.xsd">
+    <None Include="Connected Services\ReferenciaLogin\item1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ReferenciaLoginCli\LoginServicio.wsdl" />
+    <None Include="Connected Services\ReferenciaLogin\LoginServicio.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ReferenciaConUniCli\" />
-    <WCFMetadataStorage Include="Connected Services\ReferenciaLoginCli\" />
+    <WCFMetadataStorage Include="Connected Services\ReferenciaConversionUni\" />
+    <WCFMetadataStorage Include="Connected Services\ReferenciaLogin\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Connected Services\ReferenciaConversionUni\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaConUniCli\configuration91.svcinfo" />
+    <None Include="Connected Services\ReferenciaConversionUni\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaConUniCli\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\ReferenciaConUniCli\Reference.svcmap">
+    <None Include="Connected Services\ReferenciaConversionUni\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaLoginCli\configuration91.svcinfo" />
+    <None Include="Connected Services\ReferenciaLogin\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaLoginCli\configuration.svcinfo" />
+    <None Include="Connected Services\ReferenciaLogin\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaLoginCli\Reference.svcmap">
+    <None Include="Connected Services\ReferenciaLogin\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ec.edu.monster.controlador\" />
-    <Folder Include="ec.edu.monster.modelo\" />
-    <Folder Include="ec.edu.monster.servidor\" />
-    <Folder Include="ec.edu.monster.vista\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

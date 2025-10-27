@@ -1,0 +1,143 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CLICON_GR08.ec.edu.monster.model;
+using CLICON_GR08.ec.edu.monster.vista; 
+using CLICON_GR08.ec.edu.monster.service;   
+namespace CLICON_GR08.ec.edu.monster.controlador
+{
+    public class ConversionController
+    {
+        private readonly ConsoleView _view;
+        private readonly ConversionService _service;
+        private readonly ConversionModel _model;
+
+        public ConversionController()
+        {
+            _view = new ConsoleView();
+            _service = new ConversionService();
+            _model = new ConversionModel();
+        }
+
+        public void Start()
+        {
+            if (HandleLogin())
+            {
+                HandleMainMenu();
+            }
+        }
+
+        private bool HandleLogin()
+        {
+            bool loggedIn = false;
+            _view.ShowWelcome();
+
+            do
+            {
+                var (username, password) = _view.GetLoginCredentials();
+
+                if (_service.ValidateLogin(username, password))
+                {
+                    loggedIn = true;
+                    _view.ShowLoginSuccess();
+                    break;
+                }
+                else
+                {
+                    _view.ShowLoginError(username != "MONSTER");
+                }
+            } while (true);
+
+            return loggedIn;
+        }
+
+        private void HandleMainMenu()
+        {
+            bool exit = false;
+            do
+            {
+                int option = _view.ShowMainMenu();
+                switch (option)
+                {
+                    case 1:
+                        HandleConversionMenu("Longitud");
+                        break;
+                    case 2:
+                        HandleConversionMenu("Temperatura");
+                        break;
+                    case 3:
+                        HandleConversionMenu("Masa");
+                        break;
+                    case 4:
+                        exit = true;
+                        break;
+                    default:
+                        _view.ShowError("Opci�n inv�lida");
+                        break;
+                }
+            } while (!exit);
+        }
+
+        private void HandleConversionMenu(string type)
+        {
+            int option = _view.ShowConversionMenu(type);
+
+            if (option == 3) return;
+
+            if (option == 1 || option == 2)
+            {
+                try
+                {
+                    string fromUnit = string.Empty;
+                    string toUnit = string.Empty;
+
+                    switch (type.ToLower())
+                    {
+                        case "longitud":
+                            fromUnit = option == 1 ? "Cent�metros" : "Pulgadas";
+                            toUnit = option == 1 ? "Pulgadas" : "Cent�metros";
+                            break;
+                        case "temperatura":
+                            fromUnit = option == 1 ? "Celsius" : "Fahrenheit";
+                            toUnit = option == 1 ? "Fahrenheit" : "Celsius";
+                            break;
+                        case "masa":
+                            fromUnit = option == 1 ? "Kilogramos" : "Gramos";
+                            toUnit = option == 1 ? "Gramos" : "Kilogramos";
+                            break;
+                    }
+
+                    double value = _view.GetValueToConvert(fromUnit);
+
+                    double result = 0;
+
+                    switch (type.ToLower())
+                    {
+                        case "longitud":
+                            result = _service.ConvertLength(value, option);
+                            break;
+                        case "temperatura":
+                            result = _service.ConvertTemperature(value, option);
+                            break;
+                        case "masa":
+                            result = _service.ConvertMass(value, option);
+                            break;
+                    }
+
+                    _view.ShowResult(value, result, fromUnit, toUnit);
+                }
+                catch (Exception ex)
+                {
+                    _view.ShowError(ex.Message);
+                }
+            }
+            else
+            {
+                _view.ShowError("Opci�n inv�lida");
+            }
+        }
+    }
+}
+

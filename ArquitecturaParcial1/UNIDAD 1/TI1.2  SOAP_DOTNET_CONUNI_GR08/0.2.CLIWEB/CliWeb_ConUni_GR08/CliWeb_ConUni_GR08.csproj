@@ -6,12 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="ec.edu.monster.modelo\**" />
+    <Content Remove="ec.edu.monster.modelo\**" />
+    <EmbeddedResource Remove="ec.edu.monster.modelo\**" />
+    <None Remove="ec.edu.monster.modelo\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="System.ServiceModel.Http" Version="8.*" />
     <PackageReference Include="System.ServiceModel.NetTcp" Version="8.*" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="8.*" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ec.edu.monster.modelo\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Imagenes\fondoLogin.jpg" />

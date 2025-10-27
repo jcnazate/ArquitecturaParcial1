@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CLICON_GR08.ReferenciaLoginCli {
+namespace CLICON_GR08.ReferenciaLogin {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReferenciaLoginCli.ILoginServicio")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReferenciaLogin.ILoginServicio")]
     public interface ILoginServicio {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILoginServicio/Login", ReplyAction="http://tempuri.org/ILoginServicio/LoginResponse")]
@@ -23,12 +23,12 @@ namespace CLICON_GR08.ReferenciaLoginCli {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ILoginServicioChannel : CLICON_GR08.ReferenciaLoginCli.ILoginServicio, System.ServiceModel.IClientChannel {
+    public interface ILoginServicioChannel : CLICON_GR08.ReferenciaLogin.ILoginServicio, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class LoginServicioClient : System.ServiceModel.ClientBase<CLICON_GR08.ReferenciaLoginCli.ILoginServicio>, CLICON_GR08.ReferenciaLoginCli.ILoginServicio {
+    public partial class LoginServicioClient : System.ServiceModel.ClientBase<CLICON_GR08.ReferenciaLogin.ILoginServicio>, CLICON_GR08.ReferenciaLogin.ILoginServicio {
         
         public LoginServicioClient() {
         }

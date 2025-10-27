@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CLICON_GR08.ReferenciaConUniCli {
+namespace CLICON_GR08.ReferenciaConversionUni {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReferenciaConUniCli.IConversionUnidadesServicio")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReferenciaConversionUni.IConversionUnidadesServicio")]
     public interface IConversionUnidadesServicio {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversionUnidadesServicio/PulgadasACentimetros", ReplyAction="http://tempuri.org/IConversionUnidadesServicio/PulgadasACentimetrosResponse")]
@@ -53,12 +53,12 @@ namespace CLICON_GR08.ReferenciaConUniCli {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IConversionUnidadesServicioChannel : CLICON_GR08.ReferenciaConUniCli.IConversionUnidadesServicio, System.ServiceModel.IClientChannel {
+    public interface IConversionUnidadesServicioChannel : CLICON_GR08.ReferenciaConversionUni.IConversionUnidadesServicio, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ConversionUnidadesServicioClient : System.ServiceModel.ClientBase<CLICON_GR08.ReferenciaConUniCli.IConversionUnidadesServicio>, CLICON_GR08.ReferenciaConUniCli.IConversionUnidadesServicio {
+    public partial class ConversionUnidadesServicioClient : System.ServiceModel.ClientBase<CLICON_GR08.ReferenciaConversionUni.IConversionUnidadesServicio>, CLICON_GR08.ReferenciaConversionUni.IConversionUnidadesServicio {
         
         public ConversionUnidadesServicioClient() {
         }
