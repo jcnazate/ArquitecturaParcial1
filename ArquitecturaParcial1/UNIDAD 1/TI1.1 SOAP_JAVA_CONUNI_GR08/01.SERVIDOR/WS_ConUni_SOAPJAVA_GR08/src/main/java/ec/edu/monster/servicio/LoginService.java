@@ -17,6 +17,6 @@ public class LoginService {
    
     @WebMethod(operationName = "login")
     public boolean login(@WebParam(name = "user") String user,@WebParam(name = "password") String password) {
-        return ((user.equals("monster")) && (password.equals("monster9")));
+        return ((user.equals("MONSTER")) && (password.equals("MONSTER9")));
     }
 }
