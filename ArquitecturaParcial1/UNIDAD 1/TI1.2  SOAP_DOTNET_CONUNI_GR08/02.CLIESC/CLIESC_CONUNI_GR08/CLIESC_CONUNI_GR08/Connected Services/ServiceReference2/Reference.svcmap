@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="604d52c6-d12e-464d-99be-0bd284fd84e2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="4c68cb2b-4da0-412e-af93-4d6666cb36f0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,12 +19,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="fdeb5911-f073-47d5-bbdc-be5fe3746334" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/?xsd=xsd1" />
-    <MetadataFile FileName="ConversionUnidadesServicio.wsdl" MetadataType="Wsdl" ID="bda1cc11-dafd-4eb9-8726-abf4c191a899" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/?wsdl" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="a3aa5c5b-b2ba-438f-b7ee-c99c03e60358" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/?xsd=xsd0" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="aecedfbf-4161-4e99-a3ac-2fd52360d5f0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="686158f4-2406-476f-8b79-7865bf07d8b3" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c9fb34c7-c4fe-4488-bd97-981a5d40f9be" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

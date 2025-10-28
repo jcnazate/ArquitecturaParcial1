@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="1hkycNUjJEGsQTBwbO0gf4cUX7r4vAE34YEdl9tihrU=">
+<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="qj++4zr4Hrpsfo8FMdgUem4/7iJ4oE7Iu3zdMELnWFQ=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IConversionUnidadesServicio">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IConversionUnidadesServicio" contract="ServiceReference2.IConversionUnidadesServicio" bindingType="basicHttpBinding" address="http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/" bindingConfiguration="BasicHttpBinding_IConversionUnidadesServicio">
+    <endpoint name="BasicHttpBinding_IConversionUnidadesServicio" contract="ServiceReference2.IConversionUnidadesServicio" bindingType="basicHttpBinding" address="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/" bindingConfiguration="BasicHttpBinding_IConversionUnidadesServicio">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost/Design_Time_Addresses/CONUNIL_GR08/ConversionUnidadesServicio/</serializedValue>
+          <serializedValue>http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/ConversionUnidadesServicio/</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

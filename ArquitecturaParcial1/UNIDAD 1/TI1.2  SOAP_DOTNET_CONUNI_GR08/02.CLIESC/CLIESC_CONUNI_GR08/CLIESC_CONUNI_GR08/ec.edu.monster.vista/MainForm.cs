@@ -71,5 +71,10 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
         {
 
         }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
