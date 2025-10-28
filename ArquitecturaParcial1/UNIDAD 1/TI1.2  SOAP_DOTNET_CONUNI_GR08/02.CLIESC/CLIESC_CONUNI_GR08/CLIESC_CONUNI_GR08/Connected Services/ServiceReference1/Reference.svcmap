@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="2b5766d7-86bf-40ef-b9d9-52ccd6532b62" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="01afdd41-7af6-4b5f-8eef-b0aaa138afce" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,12 +19,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/LoginServicio/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="LoginServicio.wsdl" MetadataType="Wsdl" ID="9206a8c7-f0c5-4f2a-b2aa-40c4df56083a" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/?wsdl" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="e4aaf283-cd32-4c06-ba13-089cc72a2d19" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/?xsd=xsd1" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="fa6ac16e-ede3-4075-b156-ceeb1f6c6853" SourceId="1" SourceUrl="http://localhost/Design_Time_Addresses/CONUNIL_GR08/LoginServicio/?xsd=xsd0" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0471fe2d-8e21-44b0-9d55-0f1694cc3c11" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/LoginServicio/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="7ebd6388-51c1-4c8b-b787-779cb4564900" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/LoginServicio/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="02b6ecd7-d933-4c9e-a7a9-1c40b28263d5" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CONUNI_NET_GR08.ServicioSoap.ec.edu.monster.controlador/LoginServicio/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

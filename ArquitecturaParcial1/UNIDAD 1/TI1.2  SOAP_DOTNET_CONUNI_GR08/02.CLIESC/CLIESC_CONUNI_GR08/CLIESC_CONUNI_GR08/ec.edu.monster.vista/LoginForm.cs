@@ -95,5 +95,15 @@ namespace CLIESC_CONUNI_GR08.ec.edu.monster.vista
                 txtPassword.Focus();
             }
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
