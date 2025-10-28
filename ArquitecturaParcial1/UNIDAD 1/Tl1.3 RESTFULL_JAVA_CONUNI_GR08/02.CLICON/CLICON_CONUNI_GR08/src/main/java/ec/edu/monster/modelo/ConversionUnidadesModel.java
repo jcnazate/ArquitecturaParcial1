@@ -27,7 +27,7 @@ public class ConversionUnidadesModel {
      */
     public boolean login(String username, String password) {
         try {
-            String url = BASE_URL + "/generic";
+            String url = BASE_URL + "/login";
             URL obj = new URL(url);
             HttpURLConnection conn = (HttpURLConnection) obj.openConnection();
             

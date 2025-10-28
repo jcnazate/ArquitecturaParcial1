@@ -22,7 +22,7 @@ import jakarta.ws.rs.core.Response;
  *
  * @author JOHAN
  */
-@Path("generic")
+@Path("login")
 @RequestScoped
 public class Login {
     @Context
